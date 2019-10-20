@@ -8,10 +8,13 @@ add_message_files(
   BoundingBox.msg
   Description.msg
   Description3D.msg
+  Level.msg
+  Line.msg
   Recognitions.msg
   Recognitions3D.msg
   ClassifierReload.msg
   RGBDImage.msg
+  Shelf.msg
 )
 
 add_service_files(

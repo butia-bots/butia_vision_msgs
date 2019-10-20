@@ -21,6 +21,16 @@ The butia_vision_msgs package has all messages and services used by the system.
     float64 probability
     geometry_msgs/PoseWithCovariance pose
 
+### Level
+    string object_type
+    []string objects_labels
+    Line level_line
+
+### Line
+    int32 minX
+    int32 maxX
+    int32 Y
+
 ### Recognitions
     Header image_header
     Header recognition_header
@@ -34,6 +44,11 @@ The butia_vision_msgs package has all messages and services used by the system.
 ### RGBDImage
     sensor_msgs/Image rgb
     sensor_msgs/Image depth
+
+### Shelf
+    Header image_header
+    int32 number_levels
+    Level[] levels
 
 ## Services
 ### FaceClassifierTraining
