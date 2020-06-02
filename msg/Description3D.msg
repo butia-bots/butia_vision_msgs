@@ -1,4 +1,5 @@
 string label_class
 float64 probability
+sensor_msgs/Image mask
 std_msgs/ColorRGBA color
 geometry_msgs/PoseWithCovariance pose
