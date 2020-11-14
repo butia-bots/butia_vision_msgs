@@ -1,4 +1,5 @@
 uint64 seq
 ---
 RGBDImage rgbd_image
+sensor_msgs/PointCloud2 points
 sensor_msgs/CameraInfo camera_info
