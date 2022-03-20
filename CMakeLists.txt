@@ -6,6 +6,7 @@ find_package(catkin REQUIRED COMPONENTS std_msgs sensor_msgs genmsg message_gene
 add_message_files(
   FILES
   BoundingBox.msg
+  AxisAlignedBoundingBox.msg
   Description.msg
   Description3D.msg
   Level.msg
