@@ -16,6 +16,8 @@ add_message_files(
   ClassifierReload.msg
   RGBDImage.msg
   Shelf.msg
+  PoseLandmark.msg
+  PoseLandmarks.msg
 )
 
 add_service_files(

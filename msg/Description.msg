@@ -3,3 +3,4 @@ string reference_model
 float64 probability
 sensor_msgs/Image mask
 BoundingBox bounding_box
+PoseLandmarks pose_landmarks
