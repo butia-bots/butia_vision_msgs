@@ -1,16 +1,15 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(butia_vision_msgs)
 
-find_package(catkin REQUIRED COMPONENTS std_msgs sensor_msgs genmsg message_generation)
+find_package(catkin REQUIRED COMPONENTS std_msgs vision_msgs sensor_msgs genmsg message_generation)
 
 add_message_files(
   FILES
-  BoundingBox.msg
-  Description.msg
+  Description2D.msg
   Description3D.msg
   Level.msg
   Line.msg
-  Recognitions.msg
+  Recognitions2D.msg
   Recognitions3D.msg
   ClassifierReload.msg
   RGBDImage.msg
@@ -23,7 +22,6 @@ add_service_files(
   ImageRequest.srv
   ListClasses.srv
   PeopleIntroducing.srv
-  SegmentationRequest.srv
   StartTracking.srv
   StopTracking.srv
 )
@@ -33,8 +31,9 @@ generate_messages(
   std_msgs
   sensor_msgs
   geometry_msgs
+  vision_msgs
 )
 
-catkin_package(CATKIN_DEPENDS geometry_msgs sensor_msgs std_msgs message_runtime)
+catkin_package(CATKIN_DEPENDS geometry_msgs sensor_msgs vision_msgs std_msgs message_runtime)
 
 include_directories()
