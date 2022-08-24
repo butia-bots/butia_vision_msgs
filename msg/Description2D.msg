@@ -8,7 +8,8 @@ std_msgs/Header header
 uint8 type
 
 int64 id #local id on image (can come from detection or instance segmentation) (optional)
-string class #class detected by classification, detection, semantic segmentation or instance segmentation 
+int64 global_id #global id to identify a description (optional)
+string label #class detected by classification, detection, semantic segmentation or instance segmentation 
 float64 score #score of the description given by the algorithm
 
 sensor_msgs/Image mask #segmentation mask (optional)
