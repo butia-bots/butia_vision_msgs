@@ -12,18 +12,14 @@ add_message_files(
   Recognitions2D.msg
   Recognitions3D.msg
   ClassifierReload.msg
-  RGBDImage.msg
   Shelf.msg
 )
 
 add_service_files(
   FILES
   FaceClassifierTraining.srv
-  ImageRequest.srv
   ListClasses.srv
   PeopleIntroducing.srv
-  StartTracking.srv
-  StopTracking.srv
 )
 
 generate_messages(
