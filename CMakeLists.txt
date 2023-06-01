@@ -30,6 +30,6 @@ generate_messages(
   vision_msgs
 )
 
-catkin_package(CATKIN_DEPENDS geometry_msgs sensor_msgs geometry_msgs vision_msgs std_msgs message_runtime)
+catkin_package(CATKIN_DEPENDS geometry_msgs sensor_msgs vision_msgs std_msgs message_runtime)
 
 include_directories()
