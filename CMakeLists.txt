@@ -13,13 +13,14 @@ add_message_files(
   Recognitions3D.msg
   ClassifierReload.msg
   Shelf.msg
+  KeyPoint.msg
 )
 
 add_service_files(
   FILES
   FaceClassifierTraining.srv
   ListClasses.srv
-  PersonIntroducing.srv
+  PeopleIntroducing.srv
 )
 
 generate_messages(

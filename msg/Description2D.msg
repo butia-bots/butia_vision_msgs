@@ -2,6 +2,7 @@ uint8 DETECTION=0
 uint8 INSTANCE_SEGMENTATION=1
 uint8 SEMANTIC_SEGMENTATION=2
 uint8 CLASSIFICATION=3
+uint8 POSE=4
 
 std_msgs/Header header
 
@@ -15,3 +16,4 @@ float64 score #score of the description given by the algorithm
 
 sensor_msgs/Image mask #segmentation mask (optional)
 vision_msgs/BoundingBox2D bbox #(optional)
+butia_vision_msgs/KeyPoint[] pose
