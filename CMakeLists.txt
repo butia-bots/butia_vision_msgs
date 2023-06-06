@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(butia_vision_msgs)
 
-find_package(catkin REQUIRED COMPONENTS std_msgs vision_msgs sensor_msgs genmsg message_generation)
+find_package(catkin REQUIRED COMPONENTS std_msgs vision_msgs geometry_msgs sensor_msgs genmsg message_generation)
 
 add_message_files(
   FILES
@@ -23,7 +23,7 @@ add_service_files(
   FILES
   FaceClassifierTraining.srv
   ListClasses.srv
-  PeopleIntroducing.srv
+  PersonIntroducing.srv
 )
 
 generate_messages(
