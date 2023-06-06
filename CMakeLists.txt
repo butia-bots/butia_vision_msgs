@@ -13,6 +13,10 @@ add_message_files(
   Recognitions3D.msg
   ClassifierReload.msg
   Shelf.msg
+  BodyPart.msg
+  Frame.msg
+  Person.msg
+  Pixel.msg
 )
 
 add_service_files(
