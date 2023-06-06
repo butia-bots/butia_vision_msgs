@@ -23,7 +23,7 @@ add_service_files(
   FILES
   FaceClassifierTraining.srv
   ListClasses.srv
-  PersonIntroducing.srv
+  PeopleIntroducing.srv
 )
 
 generate_messages(
