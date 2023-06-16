@@ -13,7 +13,6 @@ add_message_files(
   Recognitions3D.msg
   ClassifierReload.msg
   Shelf.msg
-  DescriptionIdentifier.msg
 )
 
 add_service_files(
