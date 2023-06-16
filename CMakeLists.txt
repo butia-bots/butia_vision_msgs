@@ -24,6 +24,7 @@ add_service_files(
   FaceClassifierTraining.srv
   ListClasses.srv
   PeopleIntroducing.srv
+  LookAtDescription3D.srv
 )
 
 generate_messages(
