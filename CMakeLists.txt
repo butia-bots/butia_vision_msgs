@@ -13,6 +13,7 @@ add_message_files(
   Recognitions3D.msg
   ClassifierReload.msg
   Shelf.msg
+  DescriptionIdentifier.msg
 )
 
 add_service_files(
@@ -20,6 +21,7 @@ add_service_files(
   FaceClassifierTraining.srv
   ListClasses.srv
   PeopleIntroducing.srv
+  LookAtDescription3D.srv
 )
 
 generate_messages(
