@@ -13,8 +13,9 @@ add_message_files(
   Recognitions3D.msg
   ClassifierReload.msg
   Shelf.msg
-  KeyPoint.msg
-)
+  KeyPoint2D.msg
+  KeyPoint3D.msg
+  )
 
 add_service_files(
   FILES
