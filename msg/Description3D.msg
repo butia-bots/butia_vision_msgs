@@ -7,6 +7,7 @@ string label #class detected by classification, detection, semantic segmentation
 float64 score #score of the description given by the algorithm
 
 vision_msgs/BoundingBox3D bbox #3D bounding box of the description
+vision_msgs/BoundingBox2D bbox2D
 std_msgs/ColorRGBA mean_color #mean color of the Description3D
 
 sensor_msgs/PointCloud2 raw_cloud #raw cloud of the description (already cropped)
