@@ -1,0 +1,5 @@
+string class_name
+float64 confidence
+bool detect_best_only
+---
+std_msgs/Empty empty
