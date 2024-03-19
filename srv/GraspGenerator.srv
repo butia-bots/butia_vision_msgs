@@ -1,0 +1,7 @@
+sensor_msgs/Image rgb # image 
+sensor_msgs/Image depth # depth information
+sensor_msgs/Image seg # segmentation mask
+int32 segmap_id # segmentation id 
+float64[9] K # (depth) camera matrix (can be obtained through camera info)
+---
+butia_vision_msgs/GraspPose[] grasp_poses #message with all the grasp poses identified

@@ -15,6 +15,7 @@ add_message_files(
   Shelf.msg
   KeyPoint2D.msg
   KeyPoint3D.msg
+  GraspPose.msg
   )
 
 add_service_files(
@@ -23,6 +24,7 @@ add_service_files(
   ListClasses.srv
   PeopleIntroducing.srv
   LookAtDescription3D.srv
+  GraspGenerator.srv
 )
 
 generate_messages(
