@@ -1,3 +1,3 @@
 std_msgs/Header header
 
-FaceDescription[] descriptions
+butia_vision_msgs/FaceDescription[] descriptions

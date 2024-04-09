@@ -15,6 +15,8 @@ add_message_files(
   Shelf.msg
   KeyPoint2D.msg
   KeyPoint3D.msg
+  FaceDescription.msg
+  FaceEncoding.msg
   )
 
 add_service_files(
