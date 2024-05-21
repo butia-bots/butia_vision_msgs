@@ -1,0 +1,4 @@
+sensor_msgs/PointCloud2 point_cloud # point cloud
+visualization_msgs/MarkerArray markers # markers for visualization
+---
+geometry_msgs/Pose response # msg with the pose of the grasp

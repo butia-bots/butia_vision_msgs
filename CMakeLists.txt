@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(butia_vision_msgs)
 
-find_package(catkin REQUIRED COMPONENTS std_msgs vision_msgs geometry_msgs sensor_msgs genmsg message_generation)
+find_package(catkin REQUIRED COMPONENTS std_msgs visualization_msgs vision_msgs geometry_msgs sensor_msgs genmsg message_generation)
 
 add_message_files(
   FILES
@@ -25,6 +25,7 @@ add_service_files(
   PeopleIntroducing.srv
   LookAtDescription3D.srv
   GraspGenerator.srv
+  PlaceableArea.srv
 )
 
 generate_messages(
@@ -33,8 +34,9 @@ generate_messages(
   sensor_msgs
   geometry_msgs
   vision_msgs
+  visualization_msgs
 )
 
-catkin_package(CATKIN_DEPENDS geometry_msgs sensor_msgs vision_msgs std_msgs message_runtime)
+catkin_package(CATKIN_DEPENDS geometry_msgs visualization_msgs sensor_msgs vision_msgs std_msgs message_runtime)
 
 include_directories()
