@@ -1,0 +1,4 @@
+butia_vision_msgs/Recognitions3D objects # list of description3d that come from detection
+string labelObjectToPut # object that was picked
+---
+int32 num_shelf_id # shelf id aways from bellow to top
