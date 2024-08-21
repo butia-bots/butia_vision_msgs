@@ -23,6 +23,8 @@ add_service_files(
   ListClasses.srv
   PeopleIntroducing.srv
   LookAtDescription3D.srv
+  SetClass.srv
+  VisualQuestionAnswering.srv
 )
 
 generate_messages(
